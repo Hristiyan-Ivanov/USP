@@ -4,16 +4,16 @@ public class User {
 
     private String personalName;
     private String userName;
-    private String password;
+    private String pass;
 
     public User() {
     }
 
-    public User(String personalName, String userName, String password) {
+    public User(String personalName, String userName, String pass) {
         super();
         this.personalName = personalName;
         this.userName = userName;
-        this.password = password;
+        this.pass = pass;
     }
 
     public String getPersonalName() {
@@ -32,12 +32,12 @@ public class User {
         this.userName = userName;
     }
 
-    public String getPassword() {
-        return password;
+    public String getpass() {
+        return pass;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setpass(String pass) {
+        this.pass = pass;
     }
 
     @Override
